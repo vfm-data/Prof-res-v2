@@ -37,6 +37,14 @@ li {
   font-family: "Times";
 }
 
+.vm {
+  background-color: #e6f8fe;
+}
+
+.fm {
+  background-color: #e6f8fe;
+}
+
 li.done {
   background: #CCFF99;
 }
