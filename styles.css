@@ -1,0 +1,60 @@
+body {
+  background-color: #e6f8fe;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 5%;
+}
+
+h1 {
+  font-family: Helvetica;
+  color: #006cfa8c;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+a:link { color: blue; }          /* Unvisited links */
+a:visited { color: purple; }     /* Visited links */
+a:hover { background: #fff3b2; }  /* Hovered links */
+a:active { color: #aa3a3a; }         /* Active links */
+
+p:active { background: #eee; }   /* Active paragraphs */
+
+li:hover { background: #dbf6e9;}
+
+li {
+  list-style-type: none;
+  position: relative;
+  margin: 2px;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background: #d0e8f2;
+  font-family: "Times";
+}
+
+li.done {
+  background: #CCFF99;
+}
+
+li.done::before {
+  content: '';
+  position: absolute;
+  border-color: #009933;
+  border-style: solid;
+  border-width: 0 0.3em 0.25em 0;
+  height: 1em;
+  top: 1.3em;
+  left: 0.6em;
+  margin-top: -1em;
+  transform: rotate(45deg);
+  width: 0.5em;
+}
+
+table {
+  background-color: #d4e2d4; /* #EAF6F6 */
+}
